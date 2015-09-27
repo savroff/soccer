@@ -12,4 +12,5 @@ ActiveSupport::Dependencies.autoload_paths += %w'
   app/services
 '
 
+require 'grape'
 require './config/application_router'
