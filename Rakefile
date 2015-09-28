@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "soccer"
   gem.homepage = "http://github.com/savroff/soccer"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Soccer manager game engine.}
+  gem.description = %Q{Soccer manager engine with match generator.}
   gem.email = "savroff@gmail.com"
-  gem.authors = ["Nick Savrov"]
+  gem.authors = ["savroff", "svyatmuzyka"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
