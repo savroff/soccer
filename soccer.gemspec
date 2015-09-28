@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Nick Savrov"]
+  s.authors = ["savroff", "svyatmuzyka"]
   s.date = "2015-09-28"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Soccer manager engine with match generator."
   s.email = "savroff@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/savroff/soccer"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.5"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Soccer manager game engine."
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
